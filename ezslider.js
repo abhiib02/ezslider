@@ -16,7 +16,7 @@ class ezslider{
     current.classList.remove('active');
   }
  setCurrentSlide(index){
-    let slides = document.querySelectorAll('.slide');
+    let slides = this.slider.querySelectorAll('.slide');
     slides[index].classList.add('active');
   }
   
